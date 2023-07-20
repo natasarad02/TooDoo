@@ -1,0 +1,153 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: #343432;
+}
+
+#title{
+    font-size: 70px;
+    font-family: cursive;
+}
+
+.too{
+    color:#bdf5f4;
+
+}
+
+.doo{
+    color:#f8aff2;
+}
+h1 {
+    text-align: center;
+}
+
+#todo-container {
+    position: relative;
+    max-width: 900px;
+    margin-left: 10px;
+    padding: 20px;
+    background-color: #222220;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#todo-input {
+    width: 90%;
+    padding: 1pc;
+    margin-right: 10px;
+    background-color: #343432;
+    color: #f2f2f2;
+    height: 30px;
+}
+
+#add-btn {
+    position: absolute;
+    width: 10%;
+    height: 40px;
+    background-color: #f8aff2;
+    color: #222220;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 800px;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+
+
+
+}
+#add-btn:hover {
+    background-color: #bdf5f4;
+    color: #cf6ffb;
+}
+
+#todo-list
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+#todo-list li {
+   
+    margin-right: 10px;
+
+}
+
+#todo-list li input[type="checkbox"]
+{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+
+}
+#todo-list li label{
+    color:#f2f2f2;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 2pc;
+}
+
+.edit-button
+{
+    margin-left: 20px;
+    background-color: transparent;
+    color:#f8aff2;
+    font-size: 20px;
+    cursor: pointer;
+}
+.delete-button
+{
+    margin-left: 10px;
+    background-color: transparent;
+    color:#f8aff2;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    color:#bdf5f4;
+}
+.delete-button:hover {
+    color:#bdf5f4;
+}
+#container-box {
+    position: absolute;
+    bottom: 20%;
+    
+}
+#clock-container {
+    
+    background-color: #222220;
+    width: 700px;
+    text-align: center;
+    margin-left: 1100px;
+  
+
+   
+    
+}
+#clock {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: cursive;
+    color:#bdf5f4;
+
+}
+#date-container{
+    text-align: center;
+    background-color: #222220;
+    width: 700px;
+    margin-left: 1100px;
+    
+    
+}
+#date {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+    color:#f8aff2;
+
+}
+
